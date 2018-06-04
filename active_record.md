@@ -28,6 +28,7 @@ _____    Retrieve multiple files _______________________
    my_student = Student.find(i)
 
 
+
    my_student.update(  )update it in the database
 
    my_student.first_name = will update the instance but won't update the database until you call "my_student.save"
